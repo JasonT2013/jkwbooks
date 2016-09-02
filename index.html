@@ -4,26 +4,41 @@
 <!--[if IE 8]><html class="preIE9"><![endif]-->
 <!--[if gte IE 9]><!--><html><!--<![endif]-->
   <head>
-    <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>title</title>
-  <meta name="author" content="name">
-  <meta name="description" content="description here">
-  <meta name="keywords" content="keywords,here">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      <link rel="icon" 
+      type="image/png" 
+      href="images/favicon.png">
+      
+      <!-- SEO -->
+      <title>Jonnie Whittington Books</title>
+      <meta name="author" content="Jonnie Kidd Whittington">
+      <meta name="description" content="Jonnie Whittington, an author, mother, and musician. She sings, plays and teaches piano. She's written ten books, fifty songs, ten dramas, and a number of poems. She speaks at women’s conferences, churches, and banquets and is a comedian/entertainer.">
   
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Raleway:800|Tangerine:700" rel="stylesheet">
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+      <!----------------------------------------
+            JavaScript
+       --------------------------------------->
+      <!-- Jquery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <!-- BS JS -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- Main JS file -->
+      <script src="js/scripts.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Raleway:800|Tangerine:700" rel="stylesheet">
+      
+      <!----------------------------------------
+            CSS
+       --------------------------------------->
+      <!-- BS CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- Main CSS -->
+      <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
       
+<!-- Script for FB like plugin -->
       <div id="fb-root"></div>
-
       <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -31,8 +46,10 @@
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=180062635402564";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-    
-  <!-- jumbotron -->
+       
+<!----------------------------------
+        Jumbotron 
+---------------------------------->
     <div class="jumbotron parallax">
         <h1>Jonnie Kidd<br> Whittington</h1>
     </div>
@@ -42,8 +59,12 @@
       
     <div class="container-fluid content-wrap">
         <div class="row">
+                  
+<!---------------------------------------------
+                   About 
+--------------------------------------------->
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                <img src="images/jonnie-bio-img.jpg" class="bio-img"/>
+                <img src="images/jonnie-bio-img.jpg" class="bio-img shadow"/>
             </div>
             <div class="col-md-8">
                 <h2>About</h2>
@@ -54,7 +75,7 @@
                 <div class="fb-like" data-href="https://www.facebook.com/Jonnie-Whittington-320597251608150/?ref=bookmarks" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
             </div>
         </div>
-    
+        
 <!-----------------------------------------------
                   kidd family series 
 -------------------------------------------------> 
@@ -291,10 +312,28 @@
                 </div>
             </div>
         
-        
+       
 
-    
-</div><!-- page-wrap -->        
+</div><!-- container-fluid / page-wrap -->  
+        
+        <footer class="shadow">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 center">
+                        <h3 class="center">Stay connected:</h3>
+                        <a href="https://www.facebook.com/Jonnie-Whittington-320597251608150/" target="_blank">
+                            <img class="fb" src="images/fb.png"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-5 col-sm-8 col-md-8 col-lg-8"></div>
+                    <div class="col-xs-5 col-sm-2 col-md-2 col-lg-2">
+                        <p class="credits">Site Design By:<br>
+                        Jason Taylor</p>
+                    </div>
+                </div><!-- row -->
+            </div><!-- container-fluid -->
+        </footer>
+        
         
   </body>
 </html>

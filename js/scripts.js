@@ -1,4 +1,4 @@
-//parallax for home screen
+//parallax for top
 $(window).scroll(function(e){
     parallax();
 });
