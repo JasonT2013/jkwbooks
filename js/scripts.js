@@ -1,10 +1,23 @@
-//parallax for top
-$(window).scroll(function(e){
+var $window = $(window);
+var $scrolled = $window.scrollTop();
+
+$(document).ready(function(){
+    
+    
     parallax();
+    
 });
 
+
 function parallax(){
-    var scrolled = $(window).scrollTop();
-    $('.parallax').css('top', -(scrolled * 0.4) + 'px');
+    
+    var $parallax = $('.parallax');
+    
+    $window.scroll(function(){
+        $scrolled = $window.scrollTop();
+        
+        $parallax.css('top', -($scrolled * 0.4) + 'px');
+    });
+
 }
 
